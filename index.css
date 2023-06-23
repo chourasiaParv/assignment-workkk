@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 200px;
+    background-color: rgb(54, 6, 96);
+    position: fixed;
+    padding: 20px;
+}
+.sec-head ul a{
+    padding-left:  20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(1, 1, 6);
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.sec-container{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 100vh;
+    background-color: rgb(245, 244, 242);
+    color: rgb(12, 5, 5);
+}
+h2{
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px rgb(1, 1, 2);
+}
+p{
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px rgb(1, 1, 2);
+}
+.sec-container h2,p{
+    text-align: center;
+}
+#contact,#information,#guide{
+    display: none;
+}
+@media(max-width: 600px){
+    .main-container{
+        width: 95px;
+        padding-left: 1px;
+        
+    }
+    .sec-head ul a{
+        width: 100px;
+        font-size: 14px;
+    }
+    .sec-container{
+        width: 370px;
+        padding-left: 4px;
+    }
+    .sec-container h2{
+        font-size: 20px;
+    }
+     .sec-container p{
+        font-size: 12px;
+     }
+     }
+
+    
